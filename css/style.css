@@ -1,0 +1,27 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+
+
+/* general */
+:root {
+	--color-secondary: #ffffff;
+	--color-primary: #23272a;
+	--color-header-bg: #255ee9;
+	--color-section-bg: #f6f6f6;
+	--color-contrast: #aebbe7;
+}
+.debug{
+    border:2px solid red;
+}
+body{
+    font-family: "Arial", sans-serif;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}
